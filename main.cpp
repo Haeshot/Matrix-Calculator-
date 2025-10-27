@@ -1,12 +1,10 @@
 #include <iostream>
 #include <windows.h>
-//#include <cmath>
 
 int main()
 {
     setlocale(LC_ALL, "ru_RU.UTF-8");
 
-    // First Matrix
     int array1[15][15];
     int lines1, columns1;
 
@@ -46,15 +44,9 @@ int main()
             {
                 std::cout << "}" << std::endl;
             }
-
-
-            //std::cout << "i:" << i <<" " << "j: " << j << std::endl;
         }
     }
 
-    //system("CLS");
-
-    //Second Matrix
     int array2[15][15];
     int lines2, columns2;
 
@@ -92,22 +84,15 @@ int main()
             {
                 std::cout << "}" << std::endl;
             }
-
-
-            //std::cout << "i:" << i <<" " << "j: " << j << std::endl;
         }
     }
 
-    //system("CLS");
-
-    //Operations on matrix
     int operation;
     std::cout << std::endl;
     std::cout << "Выберите Дейтсвие:\n1.Сложение\n2.Вычетание\n3.Умножение\n";
     std::cout << ">> ";
     std::cin >> operation;
 
-    //system("CLS");
 
     switch (operation) {
     case 1:
